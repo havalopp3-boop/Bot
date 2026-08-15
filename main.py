@@ -7,8 +7,8 @@ from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTyp
 TOKEN = "8725595567:AAG1lw-AMx0v9EQS_i9fsFPn5QcFi8zHaSc"
 ADMIN_ID = 8734106005
 
-DELETE_DELAY = 625
-PHOTO_DELETE_DELAY = 625  # 3 hours
+DELETE_DELAY = 900
+PHOTO_DELETE_DELAY = 10800  # 3 hours
 
 URL_REGEX = re.compile(r'(https?://\S+|t\.me/\S+|www\.\S+|@\w+)', re.IGNORECASE)
 
